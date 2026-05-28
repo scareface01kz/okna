@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-heading: "Manrope", "Inter", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-sans);
+}
+
+body {
+  background-color: #fcfcfd;
+  color: #0c1a30;
+}
+
+/* Custom scrollbar to look polished */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
